@@ -1,0 +1,43 @@
+.menuList {
+	list-style: none;
+	cursor: pointer;
+	position: relative;
+	padding-left: 30px;
+	font-size: 20px;
+	align-items: center;
+  }
+  li:hover::before{
+	position: absolute;
+	content: '';
+	height: 4px;
+	width: 100%;
+	background-color: #2a68ff;
+	right: 0;
+	color: #2a68ff;
+  }
+  .logo{
+	cursor: pointer;
+  }
+  .navBar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+  }
+  h1{
+	color: #2a68ff;
+	font-size: 30px;
+  }
+  strong{
+	font-size: 20px;
+	font-weight: bold;
+  }
+  .menu{
+	display: flex;
+	gap: 8;
+	color: gray;
+  }
+  li:hover{
+	color: #2a68ff;
+  }
+  
