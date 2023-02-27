@@ -38,14 +38,14 @@ input[type="text"]
     border: none;
 	width: 100%;
 	outline: none;
-	color: #2a68ff;
+	color: rgb(30, 181, 227);
 }
 .icon1:hover{
 	color: black;
 }
 
 .btn{
-	background-color: #2a68ff;
+	background-color: rgb(30, 181, 227);
 	height: 100%;
 	padding: 1.25rem;
 	padding-left: 2.5rem;
@@ -88,9 +88,27 @@ span{
 	color: grey;
 }
 
-@media only screen and (max-width: 768px) {
-	/* For mobile phones: */
-	.search , .firstDiv {
-	  width: 100%;
+@media screen and (max-width: 960px) {
+	.firstDiv{
+		width: 90%;
+		display: grid;
+		max-width: 350px;
+		justify-content:center;
+		align-items: center;
+		margin-right: 30px;
+	}
+	.search2{
+		width: 85%;
+		display: grid;
+	}
+	.icons{
+		align-items: center;
+		width: 200px;
+	}
+	.btn{
+	padding: 1.25rem;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+	border-radius:10px;
 	}
   }
