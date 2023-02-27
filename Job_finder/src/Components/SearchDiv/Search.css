@@ -87,3 +87,10 @@ span{
 	cursor: pointer;
 	color: grey;
 }
+
+@media only screen and (max-width: 768px) {
+	/* For mobile phones: */
+	.search , .firstDiv {
+	  width: 100%;
+	}
+  }
