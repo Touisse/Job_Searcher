@@ -1,0 +1,98 @@
+.job{
+	gap: 2.5rem; 
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem; 
+}
+.groupDiv{
+	width: 250px;
+	padding: 20px;
+	background-color: white;
+	border-radius:10px ;
+	border: none;
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+	box-shadow: #f1f4f8;
+}
+.groupDiv:hover {
+	background-color: rgb(19, 159, 241);
+	
+}
+.groupDiv:hover h1{
+	color: white	
+}
+.groupDiv:hover h6{
+	color: white	
+}
+.groupDiv:hover p{
+	color: white	
+}
+.groupDiv:hover span{
+	color: white	
+}
+.groupDiv:hover hr{
+	color: white	
+}
+.groupDiv:hover button{
+	color: black
+}
+
+.groupSpan{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem; 
+}
+.textH1{
+	font-size: 15px;
+	font-weight: 600;
+	color: black;
+}
+.textH6{
+	color: #ccc;
+}
+.textP{
+	font-size: 10px;
+	color: #959595;
+	padding-top: 20px;
+	border-top: 2px;
+	margin-top: 20px;
+}
+.SpanDiv{
+	display: flex;
+	align-items: center;
+	gap: 0.25rem;
+	color: #ccc;
+}
+.line{
+	margin-top: 15px;
+	color: #ccc;
+}
+.company{
+	display: flex;
+	align-items: center;
+	gap: 0.5rem; 
+}
+.logo{
+	width: 10%;
+}
+.SpanDiv1{
+	font-size: 13px;
+	display: block;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.btn1{
+	border-radius: 10px;
+	border-width: 2px;
+	display: block;
+	padding: 10px;
+	width: 100%;
+	font-size: 14px;
+	font-weight: 600;
+	color: black;
+	border: none;
+	cursor: pointer;
+}

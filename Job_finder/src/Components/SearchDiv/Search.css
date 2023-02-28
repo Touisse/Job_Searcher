@@ -90,7 +90,7 @@ span{
 
 @media screen and (max-width: 960px) {
 	.firstDiv{
-		width: 90%;
+		width: 100%;
 		display: grid;
 		max-width: 350px;
 		justify-content:center;
