@@ -75,6 +75,5 @@ The Job Finder App is licensed under the [MIT License](https://opensource.org/li
 If you have any questions or comments about the Job Finder App, please feel free to contact us at [your email address]. We appreciate your feedback and suggestions!
 
 ## Interfaces 
-soon
-
-This is a job finder app developed using ReactJS. It allows users to search for job listings based on keywords and location, and filter them by various parameters such as job type, salary range, etc.
+<img width="2125" alt="Screen Shot 2023-03-01 at 5 27 26 PM" src="https://user-images.githubusercontent.com/63207127/222201437-06cf9a68-d4ee-414c-be46-996b36365aaa.png">
+<img width="2091" alt="Screen Shot 2023-03-01 at 5 27 37 PM" src="https://user-images.githubusercontent.com/63207127/222201468-0db8a0f4-f87f-4778-a0d7-8660d01a9149.png">
