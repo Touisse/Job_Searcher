@@ -1,0 +1,60 @@
+.value{
+	margin-bottom: 4rem;
+	margin-top: 6rem;
+}
+.h1text{
+	color: black;
+	font-size: 25px;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	font-weight: 600;
+	width: 400px;
+	display: block;
+}
+.cardDiv{
+	display: grid;
+	gap: 10rem;
+	align-items: center;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.cardElement1{
+	border-radius: 10px;
+	padding: 1.5rem;
+}
+.cardElement2{
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+.imgDiv{
+	padding:4px;
+	border-radius: .8rem;
+	height: 40px;
+	width: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #eeedf7;
+}
+.imgDiv img{
+	width: 70%;
+}
+.cardElement1:hover{
+	background-color: #eeedf7;
+}
+.cardElement1:hover .imgDiv{
+	background-color: white;
+}
+.SpanDiv{
+	font-weight: 600;
+	color: black;
+	font-size: 18px;
+}
+.desc{
+	font-size: 14px;
+	color: black;
+	opacity: .7;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	font-weight: 600;
+}

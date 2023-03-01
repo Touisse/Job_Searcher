@@ -11,8 +11,8 @@ const App = () => {
       <Navbar />
       <Search/>
       <Jobs/>
-      {/* <Value/>
-      <Footer/> */}
+      <Value/>
+      {/* <Footer/> */}
     </div>
   );
 };
