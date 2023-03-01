@@ -12,7 +12,7 @@ const App = () => {
       <Search/>
       <Jobs/>
       <Value/>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 };

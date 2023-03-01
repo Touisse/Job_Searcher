@@ -1,0 +1,74 @@
+.footer{
+	padding: 5rem;
+	margin-bottom: 1rem;
+	border-radius: 10px;
+	gap: 8;
+	display: grid;
+	grid-template-columns: repeat(5, minmax(0, 1fr));
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(30, 181, 227);;
+}
+.footer-logo {
+	color:white;
+	justify-self: start;
+	margin-left: 20px;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+  }
+  .fa-typo3 {
+	margin-left: 0.5rem;
+	font-size: 1.8rem;
+	color: white;
+  }
+  .p-div{
+	color: white;
+	padding-bottom: 26px;
+	opacity: 70;
+	line-height: 1.75;
+	margin-top: 20px;
+  }
+  .left-side{
+	display: grid;
+  }
+  .span-div1{
+	font-size: 18px;
+	font-weight: 600;
+	padding-bottom: 1.5rem ;
+	color: white;
+  }
+  .left-side2{
+	display: grid;
+	gap: 3;
+  }
+  li{
+	color: white;
+	opacity: 0.7;
+	list-style: none;
+  }
+ li:hover{
+	opacity: 1;
+	color: aliceblue;
+  }
+ .email{
+	font-size: 14px;
+	color: white;
+ }
+ .icons{
+	display: flex;
+	gap: 4;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+ }
+ .icon{
+	background-color: white;
+	padding: 8px;
+	width: 35px;
+	height: 35px;
+	border-radius: 100%;
+	color: rgb(30, 181, 227);
+}

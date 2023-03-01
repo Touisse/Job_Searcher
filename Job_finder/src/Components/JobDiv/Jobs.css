@@ -38,6 +38,9 @@
 .groupDiv:hover button{
 	color: black
 }
+.groupDiv:hover hr{
+	color: white;
+}
 
 .groupSpan{
 	display: flex;

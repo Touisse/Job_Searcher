@@ -11,22 +11,22 @@
 	width: 400px;
 	display: block;
 }
-.cardDiv{
+.card-div{
 	display: grid;
 	gap: 10rem;
 	align-items: center;
 	grid-template-columns: repeat(3, minmax(0, 1fr));
 }
-.cardElement1{
+.card-element1{
 	border-radius: 10px;
 	padding: 1.5rem;
 }
-.cardElement2{
+.card-element2{
 	display: flex;
 	align-items: center;
 	gap: 0.5rem;
 }
-.imgDiv{
+.img-div{
 	padding:4px;
 	border-radius: .8rem;
 	height: 40px;
@@ -36,16 +36,16 @@
 	justify-content: center;
 	background-color: #eeedf7;
 }
-.imgDiv img{
+.img-div img{
 	width: 70%;
 }
-.cardElement1:hover{
+.card-element1:hover{
 	background-color: #eeedf7;
 }
-.cardElement1:hover .imgDiv{
+.card-element1:hover .imgDiv{
 	background-color: white;
 }
-.SpanDiv{
+.span-div{
 	font-weight: 600;
 	color: black;
 	font-size: 18px;
@@ -53,7 +53,7 @@
 .desc{
 	font-size: 14px;
 	color: black;
-	opacity: .7;
+	opacity: 0.7;
 	margin-bottom: 1rem;
 	margin-top: 1rem;
 	font-weight: 600;
