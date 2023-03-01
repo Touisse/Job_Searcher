@@ -58,3 +58,57 @@
 	margin-top: 1rem;
 	font-weight: 600;
 }
+.started{
+	  background-image: linear-gradient( 109.6deg, rgb(65, 60, 68) 11.2%, rgb(161, 163, 173) 91.1% );
+	margin-top: 2rem;
+	display: flex;
+	justify-content: space-between;
+	padding: 5rem;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+.h1tag{
+	color: rgb(19, 208, 225);
+	font-size: 30px;
+	font-weight: 600;
+}
+.h2tag{
+	color: black;
+	font-size: 25px;
+	font-weight: 600;
+}
+.started-btn{
+	background-color: transparent;
+	border:1px solid rgb(19, 208, 225);
+	border-radius: 20px ;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 18px;
+	font-weight: 600;
+	color: rgb(19, 208, 225);
+	-webkit-border-radius: 20px ;
+	-moz-border-radius: 20px ;
+	-ms-border-radius: 20px ;
+	-o-border-radius: 20px ;
+}
+.started-btn:hover{
+	background-color: white;
+	border-color:rgb(19, 208, 225);
+}
+
+@media screen and (max-width: 960px) {
+	.value {
+		min-width: 200px;
+		display: grid;
+		align-items:baseline;
+	}
+	.card-div{
+		display: flex;
+		flex-direction: column;
+	}
+  }

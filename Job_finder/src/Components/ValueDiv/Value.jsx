@@ -46,6 +46,13 @@ const Value = () => {
           </p>
         </div>
       </div>
+      <div className="started">
+        <div>
+          <h1 className="h1tag">Ready to switch a Career</h1>
+          <h2 className="h2tag"> Let's get Started!</h2>
+        </div>
+        <button className="started-btn">Get Started</button>
+      </div>
     </div>
   );
 };
